@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stress Relief Recommendation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        textarea {
+            width: 60%;
+            height: 120px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🤖 AI Support Assistant</h1>
+
+    <p>Ask any question or share your concerns for positive, supportive guidance:</p>
+
+    <form action="/analyze" method="POST">
+        <textarea name="stress" placeholder="Example: I'm feeling anxious about my future..."></textarea>
+        <br>
+        <button type="submit">Get AI Response</button>
+    </form>
+
+</body>
+</html>
